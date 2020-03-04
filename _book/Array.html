@@ -1,0 +1,327 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>数组 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="Array.html">
+            
+                <a href="Array.html">
+            
+                    
+                    数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >数组</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6570;&#x7EC4;">&#x6570;&#x7EC4;</h1>
+<p>&#x628A;&#x6570;&#x7EC4;&#x5217;&#x4E3A;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x4E00;&#x79CD;&#xFF0C;&#x4F60;&#x53EF;&#x80FD;&#x4E0D;&#x9002;&#x5E94;&#xFF0C;&#x56E0;&#x4E3A;&#x592A;&#x719F;&#x6089;&#x4E86;&#xFF0C;&#x548C;&#x90A3;&#x4E9B;&#x770B;&#x8D77;&#x6765;&#x96BE;&#x61C2;&#x3001;&#x5199;&#x4E5F;&#x4E0D;&#x4F1A;&#x5199;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x76F8;&#x6BD4;&#xFF0C;&#x6839;&#x672C;&#x4E0D;&#x662F;&#x4E00;&#x7C7B;&#x4E1C;&#x897F;&#x3002;</p>
+<p>&#x4F46;&#x5176;&#x5B9E;&#xFF0C;&#x8FD9;&#x53EA;&#x662F;&#x4E00;&#x79CD;&#x9519;&#x89C9;&#xFF0C;&#x90A3;&#x4E9B;&#x4E1C;&#x897F;&#x4F60;&#x4E0D;&#x719F;&#xFF0C;&#x4EC5;&#x4EC5;&#x662F;&#x56E0;&#x4E3A;&#x89C1;&#x5F97;&#x5C11;&#xFF0C;&#x7528;&#x5F97;&#x5C11;&#xFF0C;&#x591A;&#x4E86;&#x4E5F;&#x4E00;&#x6837;&#x3002;</p>
+<p>&#x6570;&#x7EC4;&#x662F;&#x4E00;&#x79CD;&#x5B58;&#x50A8;&#x5143;&#x7D20;&#x7684;&#x7EBF;&#x6027;&#x96C6;&#x5408;&#xFF0C;&#x5143;&#x7D20;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x7D22;&#x5F15;&#x6765;&#x8FDB;&#x884C;&#x5B58;&#x53D6;&#xFF0C;&#x7136;&#x800C;&#xFF0C;&#x5728;javascript&#x4E2D;&#xFF0C;&#x6570;&#x7EC4;&#x4E5F;&#x662F;&#x4E00;&#x79CD;&#x5BF9;&#x8C61;&#xFF0C;&#x5B83;&#x7684;&#x7D22;&#x5F15;&#x5728;&#x5185;&#x90E8;&#x4ECD;&#x7136;&#x88AB;&#x5904;&#x7406;&#x6210;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x5C31;&#x50CF;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x540D;&#x90A3;&#x6837;&#xFF0C;&#x6240;&#x4EE5;&#x5F53;&#x6211;&#x4EEC;&#x4F7F;&#x7528;&#x201D;typeof &#x67D0;&#x6570;&#x7EC4;&#x201C;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F1A;&#x663E;&#x793A;object&#x3002;</p>
+<h2 id="&#x521B;&#x5EFA;">&#x521B;&#x5EFA;</h2>
+<pre><code>var arr = [];   //&#x5B57;&#x9762;&#x91CF;
+
+var arr = new Array();  //&#x6784;&#x9020;&#x51FD;&#x6570;
+</code></pre><p>&#x51E0;&#x4E2A;tips&#xFF1A;</p>
+<p>&#x4E00;&#x3001;&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x4E0D;&#x5B9A;&#x7C7B;&#x578B;&#xFF0C;&#x53EF;&#x4EE5;&#x662F;&#x4EFB;&#x610F;&#x7C7B;&#x578B;&#xFF0C;&#x5B83;&#x4EC5;&#x4EC5;&#x662F;&#x7528;&#x6765;&#x5B58;&#x50A8;&#x6570;&#x636E;&#x7684;&#x5BB9;&#x5668;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code>[2,&quot;idea&quot;,true,null]
+</code></pre><p>&#x4E8C;&#x3001;<code>[1,2,3]</code>&#x548C; <code>new Array(1,2,3)</code>&#x6548;&#x679C;&#x4E00;&#x6837;&#xFF0C;&#x4F46;<code>[3]</code>&#x548C;<code>new Array(3)</code>&#x5C31;&#x4E0D;&#x4E00;&#x6837;&#x4E86;&#xFF0C;&#x540E;&#x8005;&#x4F1A;&#x628A;&#x5355;&#x72EC;&#x7684;&#x6570;&#x5B57;&#x5F53;&#x505A;<strong>&#x6570;&#x7EC4;&#x957F;&#x5EA6;</strong></p>
+<p>&#x4E09;&#x3001;&#x53EF;&#x4EE5;&#x4E0D;&#x7BA1;&#x539F;&#x672C;&#x6570;&#x7EC4;<code>length</code>&#x591A;&#x5C11;&#xFF0C;&#x76F4;&#x63A5;&#x8BBF;&#x95EE;<code>array[&#x4EFB;&#x610F;&#x6570;&#x5B57;]</code>&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x4FEE;&#x6539;<code>length</code>&#x7684;&#x503C;&#xFF0C;&#x5F53;&#x7136;&#xFF0C;&#x53EA;&#x662F;&#x4E0D;&#x4F1A;&#x62A5;&#x9519;&#xFF0C;&#x5BF9;&#x6570;&#x7EC4;&#x672C;&#x8EAB;&#x662F;&#x6709;&#x5F71;&#x54CD;&#x7684;&#xFF0C;&#x8BBF;&#x95EE;&#x539F;&#x672C;&#x6CA1;&#x6709;&#x7684;&#x4F4D;&#x7F6E;&#x4F1A;&#x586B;&#x5145;<code>undefined</code>&#xFF0C;&#x4FEE;&#x6539;&#x7684;<code>length</code>&#x8981;&#x4E48;&#x5C06;&#x6570;&#x7EC4;&#x88C1;&#x526A;&#xFF0C;&#x8981;&#x4E48;&#x589E;&#x52A0;&#x65B0;&#x7684;<code>undefined</code>.</p>
+<p>&#x56DB;&#x3001;&#x65E2;&#x7136;&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x4E0D;&#x5B9A;&#x7C7B;&#x578B;&#xFF0C;&#x90A3;&#x4E48;&#x5B83;&#x4E5F;&#x53EF;&#x4EE5;&#x662F;&#x6570;&#x7EC4;&#xFF0C;&#x5C31;&#x5F62;&#x6210;&#x4E86;&#x4E8C;&#x7EF4;&#x6570;&#x7EC4;&#xFF0C;&#x751A;&#x81F3;&#x591A;&#x7EF4;&#x6570;&#x7EC4;&#xFF0C;&#x5C31;&#x50CF;&#x8FD9;&#x6837;&#xFF1A;</p>
+<p><code>[[1,2],[3,4]]</code>,&#x6211;&#x4EEC;&#x60F3;&#x8BBF;&#x95EE;&#x6570;&#x5B57;2&#xFF0C;&#x5C31;&#x662F;<code>[0][1]</code></p>
+<h2 id="&#x5224;&#x65AD;">&#x5224;&#x65AD;</h2>
+<p>&#x6709;&#x4EC0;&#x4E48;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x662F;&#x6570;&#x7EC4;&#xFF0C;&#x524D;&#x9762;&#x8BF4;&#x4E86;<code>typeof</code>&#x505A;&#x4E0D;&#x5230;&#xFF0C;&#x90A3;&#x4E48;&#x8FD8;&#x6709;&#x4E24;&#x79CD;&#x7B80;&#x5355;&#x7684;&#x529E;&#x6CD5;&#xFF1A;</p>
+<p><code>arr instanceof Array</code> &#x548C; <code>Array.isArray(arr)</code></p>
+<p>&#x5982;&#x679C;arr&#x662F;&#x6570;&#x7EC4;&#xFF0C;&#x4E8C;&#x8005;&#x90FD;&#x4F1A;&#x8FD4;&#x56DE;true&#x3002;</p>
+<h2 id="&#x7528;&#x9014;">&#x7528;&#x9014;</h2>
+<p>&#x6570;&#x7EC4;&#x770B;&#x8D77;&#x6765;&#x662F;&#x4E00;&#x79CD;&#x7279;&#x5B9A;&#x7684;&#x6570;&#x636E;&#x5F62;&#x5F0F;&#xFF0C;&#x4F46;&#x7528;&#x9014;&#x5341;&#x5206;&#x5E7F;&#x6CDB;&#xFF0C;&#x751A;&#x81F3;&#x4E8E;&#x8BF4;<strong>&#x201D;&#x6BCF;&#x4E2A;js&#x6587;&#x4EF6;&#x5F53;&#x4E2D;&#x90FD;&#x6709;&#x6570;&#x7EC4;&#x201C;</strong>&#x90FD;&#x4E0D;&#x4E3A;&#x8FC7;&#x3002;</p>
+<p>&#x4E3A;&#x4EC0;&#x4E48;&#x5462;&#xFF0C;&#x56E0;&#x4E3A;&#x5176;&#x7B80;&#x5355;&#x4E14;&#x5E38;&#x89C1;&#x7684;&#x5B58;&#x50A8;&#x5F62;&#x5F0F;&#xFF0C;&#x80FD;&#x591F;&#x5BF9;&#x5E94;&#x5F88;&#x591A;&#x573A;&#x666F;&#x7684;&#x5B58;&#x53D6;&#x9700;&#x8981;&#xFF0C;&#x4E8C;&#x6765;&#xFF0C;&#x5F3A;&#x5927;&#x7684;&#x65B9;&#x6CD5;&#x4F53;&#x7CFB;&#x3002;</p>
+<p><strong>&#x53EA;&#x8981;&#x6D89;&#x53CA;&#x5217;&#x8868;&#x7684;&#x751F;&#x6210;&#xFF0C;&#x589E;&#x3001;&#x5220;&#x3001;&#x6539;&#x3001;&#x67E5;&#xFF0C;&#x90FD;&#x53EF;&#x4EE5;&#x7528;&#x5230;&#x6570;&#x7EC4;</strong>&#x3002;</p>
+<h2 id="&#x65B9;&#x6CD5;">&#x65B9;&#x6CD5;</h2>
+<p>&#x6570;&#x7EC4;&#x7684;&#x65B9;&#x6CD5;&#x6709;&#x5F88;&#x591A;&#xFF0C;&#x5F88;&#x7B80;&#x5355;&#x7684;&#x5C31;&#x4E0D;&#x8BF4;&#x4E86;&#xFF0C;&#x6211;&#x4EEC;&#x5206;&#x7C7B;&#x770B;&#x770B;&#x90A3;&#x4E9B;&#x5E38;&#x7528;&#x7684;&#x65B9;&#x6CD5;&#x3002;</p>
+<h3 id="&#x589E;&#x3001;&#x5220;">&#x589E;&#x3001;&#x5220;</h3>
+<p><code>push()/pop()&#x3001;unshift()/shift()</code></p>
+<pre><code>arr = [1,2,3];
+
+//push()&#x65B9;&#x6CD5;&#x540E;&#x9762;&#x589E;&#x52A0;
+arr.push(4);  // &#x4FEE;&#x6539;&#x540E; [1,2,3,4];
+//pop()&#x65B9;&#x6CD5;&#x540E;&#x9762;&#x5220;&#x9664;
+arr.pop();    // &#x4FEE;&#x6539;&#x540E; [1,2,3];
+
+&#x8FD9;&#x91CC;&#x6709;&#x4E2A;&#x7EC6;&#x8282;&#xFF0C;push()&#x53EF;&#x4EE5;&#x4E00;&#x6B21;&#x6DFB;&#x52A0;&#x591A;&#x4E2A;&#xFF0C;push(4&#xFF0C;5&#xFF0C;6) // &#x4FEE;&#x6539;&#x540E; [1,2,3,4,5,6];
+&#x4E14;&#x8FD4;&#x56DE;&#x7684;&#x662F;&#x6570;&#x7EC4;&#x7684;length&#x3002;
+&#x800C;pop()&#x65B9;&#x6CD5;&#x53EA;&#x80FD;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#xFF0C;&#x8FD4;&#x56DE;&#x5220;&#x6389;&#x7684;&#x90A3;&#x4E2A;&#x5143;&#x7D20;&#x3002;
+
+unshift()&#x65B9;&#x6CD5;&#x524D;&#x9762;&#x589E;&#x52A0;&#xFF0C;shift()&#x65B9;&#x6CD5;&#x524D;&#x9762;&#x5220;&#x9664;&#xFF0C;&#x6548;&#x679C;&#x548C;&#x524D;&#x4E24;&#x8005;&#x76F8;&#x540C;&#xFF0C;&#x4F46;&#x65B9;&#x5411;&#x76F8;&#x53CD;&#xFF0C;&#x4E0D;&#x518D;&#x8D58;&#x8FF0;&#x3002;
+</code></pre><h3 id="&#x67E5;&#x8BE2;">&#x67E5;&#x8BE2;</h3>
+<ul>
+<li><p>indexOf()</p>
+<p>  var nameList = [&quot;&#x5F20;&#x4E09;&quot;,&quot;&#x674E;&#x56DB;&quot;,&quot;&#x738B;&#x4E8C;&quot;];
+  var target1 = &quot;&#x5F20;&#x4E09;&quot;;
+  var target2 = &quot;&#x5E05;&#x54E5;&quot;;
+  nameList.indexOf(target1); //&#x6709;&#xFF0C;&#x8FD4;&#x56DE;&#x5177;&#x4F53;&#x7D22;&#x5F15;&#x4F4D;&#x7F6E; 0
+  nameList.indexOf(target2); //&#x6CA1;&#x6709;&#xFF0C;&#x8FD4;&#x56DE; -1</p>
+</li>
+</ul>
+<p>&#x8FD9;&#x662F;&#x5341;&#x5206;&#x5E38;&#x89C1;&#x4E14;&#x88AB;&#x5E7F;&#x6CDB;&#x4F7F;&#x7528;&#x7684;&#x4E00;&#x79CD;&#x65B9;&#x6CD5;&#xFF0C;&#x5B83;&#x8FD8;&#x6709;&#x4E2A;&#x5144;&#x5F1F;&#x662F; lastIndexOf()&#xFF0C;&#x4ECE;&#x540E;&#x9762;&#x5F00;&#x59CB;&#x68C0;&#x7D22;&#xFF0C;&#x4F46;&#x5982;&#x679C;&#x6570;&#x7EC4;&#x91CC;&#x6709;&#x591A;&#x4E2A;&#xFF0C;&#x5B83;&#x4EEC;&#x53EA;&#x4F1A;&#x8FD4;&#x56DE;&#x9047;&#x5230;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x7D22;&#x5F15;&#x3002;</p>
+<p>&#x4E0D;&#x8FC7;&#xFF0C;ES6&#x7248;&#x672C;&#x4E4B;&#x540E;&#xFF0C;&#x53C8;&#x591A;&#x4E86;&#x4E00;&#x79CD;&#x65B0;&#x7684;&#x65B9;&#x6CD5;&#x4F9B;&#x4F7F;&#x7528;&#xFF0C;&#x4E14;&#x8868;&#x610F;&#x66F4;&#x6E05;&#x6670;&#xFF0C;&#x7ED3;&#x679C;&#x66F4;&#x76F4;&#x89C2;&#x3002;</p>
+<ul>
+<li><p>includes()</p>
+<p>&#x4EE5;&#x4E0A;&#x9762;&#x4E3A;&#x4F8B;&#xFF1A;</p>
+<p>nameList.includes(target1); //&#x6709;&#xFF0C;true
+nameList.includes(target2); //&#x6CA1;&#x6709;&#xFF0C;false</p>
+<p>&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x7528;&#x6765;&#x5224;&#x65AD;&#x201D;&#x6709;&#x6CA1;&#x6709;&#x201C;&#x662F;&#x8981;&#x6BD4;&#x4E0A;&#x9762;&#x65B9;&#x6CD5;&#x66F4;&#x65B9;&#x4FBF;&#xFF0C;&#x4F46;&#x5982;&#x679C;&#x7684;&#x786E;&#x9700;&#x8981;&#x7D22;&#x5F15;&#xFF0C;&#x8FD8;&#x662F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4E0A;&#x9762;&#x65B9;&#x6CD5;&#x3002;</p>
+</li>
+</ul>
+<h3 id="&#x751F;&#x6210;">&#x751F;&#x6210;</h3>
+<p><strong>&#x6570;&#x7EC4;&#x8F6C;&#x5B57;&#x7B26;&#x4E32;</strong></p>
+<p><code>join()</code></p>
+<pre><code>var nameList = [&quot;&#x5F20;&#x4E09;&quot;,&quot;&#x674E;&#x56DB;&quot;,&quot;&#x738B;&#x4E8C;&quot;];
+nameList.join(&quot;&#x548C;&quot;); // &quot;&#x5F20;&#x4E09;&#x548C;&#x674E;&#x56DB;&#x548C;&#x738B;&#x4E8C;&quot;
+</code></pre><p>&#x53EF;&#x4EE5;&#x770B;&#x51FA;&#xFF0C;join()&#x65B9;&#x6CD5;&#x5C31;&#x662F;&#x4F7F;&#x7528;&#x5B83;&#x7684;&#x53C2;&#x6570;(&#x9ED8;&#x8BA4;&#x662F;&#x9017;&#x53F7;)&#xFF0C;&#x628A;&#x6570;&#x7EC4;&#x7684;&#x6BCF;&#x4E00;&#x9879;&#x8FDE;&#x63A5;&#x8D77;&#x6765;&#xFF0C;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x8FD9;&#x5C31;&#x5F88;&#x5F3A;&#x5927;&#x4E86;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x53D1;&#x6325;&#x60F3;&#x8C61;&#xFF0C;&#x8B6C;&#x5982;&#xFF1A;<code>&quot;&#x5F20;&#x4E09;&amp;&amp;&#x674E;&#x56DB;&amp;&amp;&#x738B;&#x4E8C;&quot;</code>&#x3001;<code>&quot;2020-02-02&quot;</code>,&#x7B49;&#x7B49;&#x3002;</p>
+<p>&#x5F53;&#x7136;&#xFF0C;&#x8FD8;&#x6709;&#x4E2A;&#x4E07;&#x80FD;&#x901A;&#x7528;&#x65B9;&#x6CD5;&#x2014;&#x2014;<code>toString()</code>,&#x57FA;&#x672C;&#x4EC0;&#x4E48;&#x9047;&#x5230;&#x5B83;&#x90FD;&#x602A;&#x602A;&#x8F6C;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x9664;&#x975E;&#x6B64;&#x65B9;&#x6CD5;&#x4E0D;&#x53EF;&#x7528;&#xFF0C;&#x4F46;&#x76F8;&#x6BD4;&#x4E4B;&#x4E0B;&#x5C31;&#x6CA1;&#x6709;join()&#x90A3;&#x4E48;&#x7075;&#x6D3B;&#x4E86;&#x3002;</p>
+<p><strong>&#x5B57;&#x7B26;&#x4E32;&#x8F6C;&#x6570;&#x7EC4;</strong></p>
+<p><code>split()</code></p>
+<p>&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x8DDF;join()&#x50CF;&#x662F;&#x4E24;&#x4E2A;&#x76F8;&#x53CD;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;join()&#x65B9;&#x6CD5;&#x4F1A;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x7528;&#x6765;&#x8FDE;&#x63A5;&#x5B57;&#x7B26;&#x7684;&#x7B26;&#x53F7;&#x7EC4;&#x6210;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x54EA;&#x6015;&#x662F;&#x7A7A;&#x683C;&#xFF0C;split()&#x540C;&#x6837;&#xFF0C;&#x9700;&#x8981;&#x6709;&#x4E2A;&#x5206;&#x5272;&#x7684;&#x6807;&#x5FD7;&#x3002;</p>
+<pre><code>var str = &quot;&#x5F20;&#x4E09; &#x674E;&#x56DB; &#x738B;&#x4E8C;&quot;;
+str.split(&quot; &quot;);  // [&quot;&#x5F20;&#x4E09;&quot;, &quot;&#x674E;&#x56DB;&quot;, &quot;&#x738B;&#x4E8C;&quot;]
+
+var date = &quot;2020-02-02&quot;;
+date.split(&quot;-&quot;);  // [&quot;2020&quot;, &quot;02&quot;, &quot;02&quot;]
+</code></pre><p><strong>&#x6539;&#x53D8;&#x539F;&#x6570;&#x7EC4;</strong></p>
+<p>&#x4EC0;&#x4E48;&#x53EB;&#x201D;&#x6539;&#x53D8;&#x539F;&#x6570;&#x7EC4;&#x201C;&#xFF0C;&#x56E0;&#x4E3A;&#x5BF9;&#x6570;&#x7EC4;&#x4EA7;&#x751F;&#x5F71;&#x54CD;&#x7684;&#x65B9;&#x6CD5;&#x4E0D;&#x5C11;&#xFF0C;&#x6709;&#x4E9B;&#x76F4;&#x63A5;&#x6539;&#x53D8;&#x539F;&#x6570;&#x7EC4;&#xFF0C;&#x800C;&#x53E6;&#x5916;&#x7684;&#x4F1A;&#x751F;&#x6210;&#x65B0;&#x6570;&#x7EC4;&#xFF0C;&#x4E0A;&#x9762;&#x201D;&#x589E;&#x3001;&#x5220;&#x201C;&#x7684;&#x65B9;&#x6CD5;&#x5DF2;&#x7ECF;&#x662F;&#x6539;&#x53D8;&#x539F;&#x6570;&#x7EC4;&#xFF0C;&#x53E6;&#x5916;&#x8FD8;&#x6709;&#x4E00;&#x4E9B;&#x65B9;&#x6CD5;&#x4F1A;&#x6539;&#x53D8;&#x539F;&#x6570;&#x7EC4;&#x3002;</p>
+<p><strong>&#x751F;&#x6210;&#x65B0;&#x6570;&#x7EC4;</strong></p>
+<p><code>concat()</code>&#x2014;&#x2014;&#x8FDE;&#x63A5;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;</p>
+<pre><code>var firstStr = [1,2,3,4];
+var secondStr = [5,6,7,8];
+var resultStr = firstStr.concat(secondStr);  // [1, 2, 3, 4, 5, 6, 7, 8]
+</code></pre><p><code>splice()</code>&#x2014;&#x2014;&#x622A;&#x53D6;&#x5DF2;&#x6709;&#x6570;&#x7EC4;&#x7684;&#x4E00;&#x90E8;&#x5206;</p>
+<pre><code>var startStr = [&quot;&#x59D3;&quot;,&quot;&#x540D;&quot;,&quot;:&quot;,&quot;i&quot;,&quot;d&quot;,&quot;e&quot;,&quot;a&quot;];
+var endStr = startStr.splice(3,4).join(&quot;&quot;); // &quot;idea&quot;
+</code></pre><p>&#x8FD9;&#x91CC;&#x5C0F;&#x5C0F;&#x5730;&#x628A;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#x7ED3;&#x5408;&#x4E86;&#x4E00;&#x4E0B;&#xFF0C;&#x7279;&#x5730;&#x628A;&#x82F1;&#x6587;&#x5B57;&#x7B26;&#x7684;&#x540D;&#x5B57;&#x53D6;&#x51FA;&#x6765;&#xFF0C;&#x5E76;&#x8FDE;&#x63A5;&#x6210;&#x5B57;&#x7B26;&#x4E32;&#x3002;</p>
+<h3 id="&#x904D;&#x5386;">&#x904D;&#x5386;</h3>
+<h3 id="&#x6392;&#x5E8F;">&#x6392;&#x5E8F;</h3>
+<h3 id="&#x53BB;&#x91CD;">&#x53BB;&#x91CD;</h3>
+<h3 id="&#x62F7;&#x8D1D;">&#x62F7;&#x8D1D;</h3>
+<p><strong>&#x6D45;&#x62F7;&#x8D1D;</strong></p>
+<p><strong>&#x6DF1;&#x62F7;&#x8D1D;</strong></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"数组","level":"1.2","depth":1,"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Array.md","mtime":"2020-03-04T14:07:47.165Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-04T14:37:30.030Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
