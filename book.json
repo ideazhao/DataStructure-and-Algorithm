@@ -1,0 +1,58 @@
+{
+  "title": "JavaScript算法与数据结构",
+  "description": "让代码更优雅",
+  "author": "ideazhao",
+  "output.name": "site",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "root": ".",
+  "links": {
+      "sidebar": {
+          "个人博客": "http://www.ideazhao.com"
+      }
+  },
+  "plugins": [
+      "code",
+      "-search",
+      "search-pro",
+      "github",
+      "tbfed-pagefooter",
+      "donate",
+      "-sharing",
+      "sharing-plus",
+      "highlight",
+      "splitter",
+      "pageview-count"
+  ],
+  "pluginsConfig": {
+      "github": {
+          "url": "https://github.com/linggan100/data-structure"
+      },
+      "code": {
+          "copyButtons": true
+      },
+      "tbfed-pagefooter": {
+          "copyright": "Copyright © ideazhao 2020",
+          "modify_label": "本书发布时间：",
+          "modify_format": "YYYY-MM-DD HH:mm:ss"
+      },
+      "donate": {
+          "wechat": "/assets/img/wxpay.jpeg",
+          "alipay": "/assets/img/alipay.jpeg",
+          "title": "",
+          "button": "赏",
+          "alipayText": "支付宝",
+          "wechatText": "微信"
+      },
+      "sharing": {
+          "weibo": true,
+          "qq": true,
+          "all": [
+              "douban",
+              "google",
+              "qzone",
+              "linkedin"
+          ]
+      }
+  }
+}
