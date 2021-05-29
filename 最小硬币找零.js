@@ -1,14 +1,19 @@
-//面额：可根据不同币种随意设置
-//目标数：要找零的总数
+/**
+ * 最小硬币找零
+ * @param {*} coins 面额：可根据不同币种随意设置
+ * @param {*} amount 标数：要找零的总数
+ * @returns 
+ */
+
 function minCoinChange(coins,amount){
     const cache = [];  //缓存计算结果
-    // 此处的value为递归调用所传的找零总额
+    // 找零计算的函数
     const makeChange = value =>{  
-        // 如果总额为0，不需要找零
+        // 总额为0，不需要找零
         if(!value){
             return []
         }
-        //如果找零的额度已经被计算过，已被缓存，直接返回
+        //找零额度已被计算过，已被缓存，直接返回
         if(cache[value]){
             return cache[value]
         }
@@ -31,8 +36,8 @@ function minCoinChange(coins,amount){
         //计算完毕，将结果缓存
         return (cache[value] = min)
     }
-    //递归计算结果
+    //返回计算结果
     return makeChange(amount)
 }
-console.log(minCoinChange([1,2,5,10,20],75))
+minCoinChange([1,2,5,10,20],75)
 // [ 5, 10, 20, 20, 20 ]
